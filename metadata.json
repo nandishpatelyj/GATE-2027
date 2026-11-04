@@ -1,0 +1,6 @@
+{
+  "name": "GATE-Track",
+  "description": "GATE 2027 Data Science & AI (DA) preparation tracker with syllabus coverage, streaks, PYQ practice tracking, mock test analytics, error log, and spaced revision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

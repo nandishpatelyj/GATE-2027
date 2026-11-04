@@ -1,0 +1,58 @@
+import { ResourceItem } from '../types';
+
+export const INITIAL_RESOURCES: ResourceItem[] = [
+  {
+    id: 'res_official_syllabus',
+    title: 'Official GATE Data Science & AI (DA) Syllabus PDF',
+    url: 'https://gate2025.iitr.ac.in/doc/2025/GATE%20_DA_2025_Syllabus.pdf',
+    subjectId: 'all',
+    category: 'Official',
+    authorOrSource: 'GATE Organizing Institute',
+    addedDate: '2026-11-01',
+  },
+  {
+    id: 'res_mit_1806',
+    title: 'MIT 18.06 Linear Algebra Lecture Series',
+    url: 'https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/',
+    subjectId: 'linear_algebra',
+    category: 'Video',
+    authorOrSource: 'Prof. Gilbert Strang (MIT OCW)',
+    addedDate: '2026-11-01',
+  },
+  {
+    id: 'res_harvard_stat110',
+    title: 'Harvard Stat 110: Introduction to Probability',
+    url: 'https://projects.iq.harvard.edu/stat110/youtube',
+    subjectId: 'prob_stats',
+    category: 'Video',
+    authorOrSource: 'Prof. Joe Blitzstein (Harvard)',
+    addedDate: '2026-11-01',
+  },
+  {
+    id: 'res_nptel_ml',
+    title: 'NPTEL Introduction to Machine Learning',
+    url: 'https://nptel.ac.in/courses/106106139',
+    subjectId: 'machine_learning',
+    category: 'Video',
+    authorOrSource: 'Prof. Balaraman Ravindran (IIT Madras)',
+    addedDate: '2026-11-01',
+  },
+  {
+    id: 'res_cs188_ai',
+    title: 'UC Berkeley CS188: Introduction to Artificial Intelligence Notes',
+    url: 'https://inst.eecs.berkeley.edu/~cs188/textbook/',
+    subjectId: 'artificial_intelligence',
+    category: 'Notes',
+    authorOrSource: 'UC Berkeley CS188',
+    addedDate: '2026-11-01',
+  },
+  {
+    id: 'res_gateoverflow_da',
+    title: 'GATE Overflow — Data Science & AI Previous Year Questions',
+    url: 'https://gateoverflow.in/tag/gate-da',
+    subjectId: 'all',
+    category: 'Notes',
+    authorOrSource: 'GATE Overflow Community',
+    addedDate: '2026-11-01',
+  },
+];
